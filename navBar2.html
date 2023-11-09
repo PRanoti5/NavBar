@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Navbar2</title>
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  animation: Background 7s infinite;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #481515;
+  color: rgb(3, 255, 192);
+}
+
+@keyframes Background {
+  0% {
+    background-color: #333;
+  }
+  50% {
+    background-color: #ee0000e3;
+  }
+  100% {
+    background-color: #333;
+  }
+}
+
+</style>
+<body>
+  <div class="navbar">
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+  </div>
+</body>
+</html>
